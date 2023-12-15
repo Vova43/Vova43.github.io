@@ -1,5 +1,3 @@
-
-Sitemap: Vova43.github.io
 Crawl-delay: 5
 User-agent: *
-Allow: Vova43.github.io
+Allow: /Vova43.github.io
