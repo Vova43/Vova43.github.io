@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?= $page_title ?></title>
-</head>
-<body <?= strtolower($page_slug) === 'homepage' ? 'class="page-homepage"' : ''; ?>>
-    <section>
-        <h1><?= $page_title ?></h1>
-        <p>This is a paragraph.</p>
-    </section>
-</body>
+<?php
+$a = 1;
+$b = 2;
+if ($a === 1) {
+    if ($b == 2) {
+        ?><head></head><?php
+    } else {
+        ?><body></body><?php
+    }
+}
+?>
 </html>
